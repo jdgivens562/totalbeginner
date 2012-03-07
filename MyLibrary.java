@@ -146,14 +146,9 @@ public class MyLibrary {
 			testLibrary.checkIn(b1);
 			testLibrary.checkOut(b2, jim);
 			testLibrary.printStatus();
-			
-			
-			
-			
 		}
 
 		private void printStatus() {
-			
 			System.out.println("Status Report of MyLibrary \n" + this.toString());
 			
 			for (Book thisBook: this.getBooks()){
@@ -168,12 +163,7 @@ public class MyLibrary {
 			System.out.println("Books Available: "
 					+ this.getAvailableBooks().size());
 			System.out.println("End of Status Report");
-			
-			
 		}
-		
-		
-		
 	}
 				
 
