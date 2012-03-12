@@ -8,7 +8,7 @@ public class Person {
 	// constructors
 	public Person() {
 		name = "unknown name";
-		maximumBooks = 3;		
+		maximumBooks = 4;		
 	}	
 	// methods
 	public String getName(){
